@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.Header {
+    background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+    background-size: 1350px 800px;
+    height: 650px;
+}
+
+.ToolsBar{
+    display: inline-block;
+}
+
+.Nav{
+    position: absolute;
+    right: 0%;
+    top: 2%;
+}
+
+.HeadInHeader {
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    top: 25px;
+    left: 45px;
+    color: white;
+}
+
+.HeadInHeader:hover{
+    text-decoration: underline;
+}
+
+.ToolsBarUl {
+    margin: 20px 18px 0 0; 
+    color: white;  
+    font-size: 17px;
+}
+
+.ToolsBar {
+    margin-right: 30px;
+}
+
+.ToolsHover{
+    text-decoration: none;
+    color:rgba(255,255,255,0.5);
+}
+
+.ToolsHover:hover{
+    color: snow;
+    transition: color 0.3s ease-in-out;
+}
+
+.SignUp{
+    border-radius: 35px;
+    padding: 9px 13px;
+    font-size: 17px;
+    position: relative;
+    top: -5px;
+    border: transparent;
+    background-color: white;
+}
+
+.SignUp a{
+    text-decoration: none;
+}
+
+.Head2InHeader {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+    color: white;
+}
+
+.pInHeader {
+    text-align: center;
+    font-size: 25px;
+    margin: 35px 0 35px 0;
+    color: white;
+}
+
+.ButtonInHeader{
+    font-size: 17px;
+    padding: 1em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    border-radius: 35px;
+    position: relative;
+    margin: 20px 0 200px 555px;
+}
+       
+.ButtonInHeader:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.LinkedButton{
+    text-decoration: none;
+    color: white;
+}
+
+.Facilities{
+    background-color: #f5f5f5;
+}
+
+.HeadInContent{
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 15px;
+    font-size: 2.7em;
+    color: rgb(83, 75, 75);
+}
+
+.pInContent{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 1.4em;
+    color: gray;
+}
+
+.Boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.Box1, .Box2, .Box3{
+    width: 370px;
+    height: 340px;
+    background-color: white;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    border-radius: 10px;
+}
+
+.ImgInBox1{
+    width: 130px;
+    height: 140px;
+    margin: 25px 0 15px 117px;
+}
+
+.ImgInBox2{
+    width: 135px;
+    height: 125px;
+    margin: 35px 0 15px 113px;
+}
+
+.ImgInBox3{
+    width: 155px;
+    height: 135px;
+    margin: 30px 0 0 112px;
+}
+
+.HeadInBox1, .HeadInBox2, .HeadInBox3 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    margin-bottom: 25px;
+}
+
+.pInBox1, .pInBox2, .pInBox3 {
+    text-align: center;
+    line-height: 1.4;
+    margin-inline-start: 25px;
+    margin-inline-end: 25px;
+    color: rgb(82, 81, 81);
+}
+
+.HeadInFeature{
+    text-align: center;
+    padding-top: 90px;
+    margin-bottom: 15px;
+    font-size: 2.7em;
+    color: rgb(83, 75, 75);
+}
+
+.pInFeature{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 1.4em;
+    color: gray;
+}
+
+.Hr1InFeature{
+    width: 89%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 0;
+    height: 1px;
+    background-color: rgb(195, 183, 183);
+}
+
+.Members {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.Member1, .Member2, .Member3, .Member4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Member2, .Member3, .Member4 {
+    margin-left: -80px;    
+}
+
+.Img1InMember, .Img2InMember, .Img3InMember, .Img4InMember {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.Head1InMember, .Head2InMember, .Head3InMember, .Head4InMember {
+    font-size: 17px;
+    padding-top: 20px;
+    color: rgb(77, 75, 75);
+}
+
+.p1InMember, .p2InMember, .p3InMember, .p4InMember {
+    font-size:14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.Hr2InFeature{
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border: 0;
+    height: 1px;
+    background-color: rgb(195, 183, 183);
+}
+
+.p2InFeature {
+    text-align: center;
+    margin-inline-start: 250px;
+    margin-inline-end: 250px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(93, 92, 92);
+    margin-bottom: 40px;
+}
+
+.ButtonInContent{
+    font-size: 17px;
+    padding: 1em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    border-radius: 35px;
+    position: relative;
+    margin: 0 0 70px 555px;
+}
+       
+.ButtonInContent:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.LinkedButton2{
+    text-decoration: none;
+    color: white;
+}
+
+.Contact {
+    background-color:rgb(55, 145, 148);
+    height: 650px;
+}
+
+.HeadInContact {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 45px;
+    color: white;
+}
+
+.pInContact {
+    text-align: center;
+    margin: 15px 0 50px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.NameInput {
+    margin: 0 25px 0 400px;
+    width: 250px;
+    height: 25px;
+    padding: 6px 0 6px 12px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.EmailInput {
+    width: 250px;
+    height: 25px;
+    padding: 6px 0 6px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.MessageInput{
+    width: 530px;
+    height: 160px;
+    margin: 30px 0 30px 400px;
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+}
+
+.MessageInput::placeholder {
+    padding-top: 1px;
+    padding-left: 1.5px;
+    font-size: 14.5px;
+}
+
+.NameInput, .EmailInput, .MessageInput::focus {
+    border-color: red;
+}
+
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: rgb(68, 61, 61);
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+    transform: translateX(3em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+    transform: translateX(10em);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+    from {
+        transform: translateY(0.1em);
+    }
+
+    to {
+        transform: translateY(-0.1em);
+    }
+}
+
+.LinkedInButtonForm {
+    text-decoration: none;
+    color: white;
+}
+
+.Footer {
+    background-color: #383b43;
+}
+
+.About {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.LinkInCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.LinkesInFooter {
+    text-decoration: none;
+    color: rgb(173, 169, 169);
+    line-height: 2;
+}
+
+.LinkesInFooter:hover {
+    text-decoration: underline;
+}
+
+.Head1InFooter, .Head2InFooter, .Head3InFooter, .Head4InFooter {
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.HrInFooter{
+    width: 87%;
+    margin: 45px 0 70px 87px;
+    border: 0;
+    height: 1px;
+    background-color: rgb(134, 132, 132);
+}
+
+.CopyRight {
+    display: flex;
+    gap: 20px;
+    margin-left: 88px;
+    
+    color: rgb(160, 157, 157);
+}
+
+.CopyRight > p > a {
+    text-decoration: none;
+    color: rgb(160, 157, 157);
+}
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    bottom: 52px;
+    right: -1065px;
+}
+  
+.wrapper .icon {
+    position: relative;
+    background: rgb(194, 223, 177);
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+  
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+ 
+.wrapper .icon:hover span, .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+  
+.wrapper .facebook:hover, .wrapper .facebook:hover .tooltip, .wrapper .facebook:hover .tooltip::before {
+    background: #1877F2;
+    color: #fff;
+}
+  
+.wrapper .twitter:hover, .wrapper .twitter:hover .tooltip, .wrapper .twitter:hover .tooltip::before {
+    background: #50abe4;
+    color: #fff;
+}
+  
+.wrapper .instagram:hover, .wrapper .instagram:hover .tooltip, .wrapper .instagram:hover .tooltip::before {
+    background: #E4405F;
+    color: #fff;
+}
