@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headInNavbar {
+    padding: 25px 125px;
+    display: flex;
+    font-size: 22px;   
+}
+
+.secondPart {
+    color: rgb(243, 173, 60);
+}
+
+.options ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    bottom: 48px;
+    font-weight: bold;
+    left: 625px;
+    font-size: 14px;
+    width: 700px;
+}
+
+.Header {
+    margin: -20px 0 20px 127px;  
+    width: 85%;
+    height: 650px;
+}
+
+.firstPhoto img {
+    filter: contrast(95%) brightness(50%);
+    height: 430px;
+    width: 740px;
+}
+
+.pInFirstPhoto {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    width: 700px;
+}
+
+.textInFirstPhoto {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    bottom: 110px;
+    left: 22px;
+    color: white;
+}
+
+.dateInFirstPhoto {
+    display: flex;
+    gap: 5px;
+}
+
+.likeInFirstPhoto, .likeInSecondPhoto, .likeInThirdPhoto, .likeInFourthPhoto, .likeInFifthPhoto, .likeInSixthPhoto, .commentInFirstPhoto, .commentInSecondPhoto, .commentInThirdPhoto, .commentInFourthPhoto, .commentInFifthPhoto, .commentInSixthPhoto{
+    display: flex;
+    gap: 3px;
+}
+
+.text2InDateInFirstPhoto {
+    color: rgb(253, 210, 17);
+}
+
+.secondAndThirdPhoto {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 752px;
+    bottom: 520px;
+    width: 360px;
+}
+
+.secondAndThirdPhoto img {
+    height: 210px;
+    width: 365px;
+    filter: contrast(95%) brightness(50%);
+    margin-left: -2px;
+}
+
+.thirdPhoto {
+    position: relative;
+    bottom: 66.8px;
+}
+
+.pInSecondPhoto, .pInThirdPhoto, .pInFourthPhoto, .pInFifthPhoto, .pInSixthPhoto{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    bottom: 110px;
+    left: 20px;
+    width: 330px;
+}
+
+.textInSecondPhoto, .textInThirdPhoto, .textInFourthPhoto, .textInFifthPhoto, .textInSixthPhoto{
+    display:flex;
+    gap: 25px;
+    font-size: 15px;
+    position: relative;
+    bottom: 95px;
+    left: 20px;
+    color: white;
+}
+
+.fourthAndFifthAndSixthPhoto {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 653px;
+}
+
+.fourthAndFifthAndSixthPhoto img {
+    height: 210px;
+    width: 365px;
+    filter: contrast(95%) brightness(50%);
+}
+
+.container {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.recentNews {
+    margin: 35px 0 0 127px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2InRecentNews:before {
+    content: '';
+    position: absolute;
+    top: 836px;
+    left: 129px;
+    width: 80px;
+    height: 5px;
+    background: #F9B500;
+    z-index: 1;
+}
+
+.h2InRecentNews:after {
+    content: '';
+    position: absolute;
+    top: 840px;
+    left: 129px;
+    width: 54.5%;
+    height: 1px;
+    background: #ccc;
+}
+
+.recentNews img {
+    margin-top: 60px;
+    margin-left: 4px;
+    width: 60.4%;
+}
+
+.recentNews a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 280px;
+}
+
+.textInRecentNews {
+    display: flex;
+    gap: 25px;
+    margin: 18px 7px;
+    color: black;
+}
+
+.dateInRecentNews {
+    display: flex;
+    gap: 5px;
+}
+
+.likeInRecentNews, .commentInRecentNews {
+    display: flex;
+    gap: 3px;
+}
+
+.text1InDateInRecentNews, .text3InDateInRecentNews {
+    color:#888;
+}
+
+.pInRecentNews {
+    font-size: 18.6px;
+    margin-left: 7px;
+    width: 760px;
+    color: #555;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: -423px;
+    width: 24%;
+}
+
+.rate {
+    margin-top: 35px;
+}
+
+.rate p {
+    padding: 17px 100px;
+    background-color: #F9B500;
+    margin-top: 1px;
+}
+
+.pInPopularPosts {
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(53, 51, 51);
+    margin-bottom: 70px;
+}
+
+.pInPopularPosts:before {
+    content: '';
+    position: absolute;
+    top: 1206px;
+    left: 917px;
+    width: 80px;
+    height: 5px;
+    background: #F9B500;
+    z-index: 1;
+}
+
+.pInPopularPosts:after {
+    content: '';
+    position: absolute;
+    top: 1210px;
+    left: 917px;
+    width: 24%;
+    height: 1px;
+    background: #ccc;
+}
+
+.box1InPopularPosts, .box2InPopularPosts, .box3InPopularPosts, .box4InPopularPosts {
+    display: flex;
+    gap: 25px;
+}
+
+.box1InPopularPosts img, .box2InPopularPosts img, .box3InPopularPosts img, .box4InPopularPosts img{
+    margin-bottom: 20px;
+}
+
+.dateInBox1, .dateInBox2, .dateInBox3, .dateInBox4 {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.pInTextInBox1, .pInTextInBox2, .pInTextInBox3, .pInTextInBox4 {
+    margin-top: 6px;
+    color: rgb(31, 30, 30);
+    font-size: 19px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.text1InDateInBox1, .text1InDateInBox2, .text1InDateInBox3, .text1InDateInBox4, .text3InDateInBox1, .text3InDateInBox2, .text3InDateInBox3, .text3InDateInBox4 {
+    color: #888;
+}
+
+.pInCrypto {
+    margin: 35px 0 65px 135px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pInCrypto:before {
+    content: '';
+    position: absolute;
+    top: 1670px;
+    left: 137px;
+    width: 80px;
+    height: 5px;
+    background: #F9B500;
+    z-index: 1;
+}
+
+.pInCrypto:after {
+    content: '';
+    position: absolute;
+    top: 1674px;
+    left: 137px;
+    width: 54%;
+    height: 1px;
+    background: #ccc;
+}
+
+.photoInCrypto {
+    display: flex;
+    margin-left: 140px;
+}
+
+.photo1InCrypto img, .photo2InCrypto img {
+    width: 58%;
+    margin-bottom: 15px;
+}
+
+.photo2InCrypto img, .pInPhoto2InCrypto, .textInCryptoPhoto2 {
+    position: relative;
+    right: 225px;
+}
+
+.pInPhoto1InCrypto, .pInPhoto2InCrypto {
+    font-size: 20px;
+    font-weight: bold;
+    width: 295px;
+    margin-bottom: 20px;
+}
+
+.textInCryptoPhoto1, .textInCryptoPhoto2 {
+    display: grid;
+    grid-template-columns: 190px 80px;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.dateInCryptoPhoto1, .dateInCryptoPhoto2 {
+    display: flex;  
+    gap: 3px; 
+}
+
+.likeInCryptoPhoto1, .likeInCryptoPhoto2, .commentInCryptoPhoto1, .commentInCryptoPhoto2 {
+    display: flex;
+    gap: 5px;
+}
+
+.text1InDateInCryptoPhoto1, .text1InDateInCryptoPhoto2, .text3InDateInCryptoPhoto1, .text3InDateInCryptoPhoto2 {
+    color: #888;
+}
+
+.pInNewsLetter {
+    font-weight: bold;
+    font-size: 21px;
+    color: rgb(53, 51, 51);
+    margin-bottom: 60px;
+}
+
+.pInNewsLetter:before {
+    content: '';
+    position: absolute;
+    top: 1830px;
+    left: 917px;
+    width: 80px;
+    height: 5px;
+    background: #F9B500;
+    z-index: 1;
+}
+
+.pInNewsLetter:after {
+    content: '';
+    position: absolute;
+    top: 1834px;
+    left: 917px;
+    width: 25%;
+    height: 1px;
+    background: #ccc;
+}
+
+.textInNewsLetter {
+    width: 79%;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+input[type="email"] {
+    padding: 15px 100px 15px 20px;
+    border: 1px solid rgb(255, 145, 0);
+    border-right: none;
+}
+
+input[type="email"]::placeholder {
+    color:rgb(168, 168, 168);
+}
+
+.formInNewsLetter {
+    display: flex;
+}
+
+.formInNewsLetter button {
+    padding: 15px 15px;
+    border: 1px solid rgb(255, 145, 0);
+    background-color: rgb(255, 145, 0);
+}
+
+.footer {
+    color: white;
+    background-color: #191919;
+    height: 400px;
+}
+
+.imgInFooter {
+    opacity: 0.09;
+    position: relative;
+    left: 30%;
+    padding-top: 50px;
+}
+
+.contentInFooter {
+    display: grid;
+    grid-template-columns: 300px 300px 350px;
+    gap: 30px;
+    position: relative;
+    bottom: 250px;
+    left: 140px;
+    width: 70%;
+}
+
+.imgNewsBitInFooter {
+    margin-bottom: 20px;
+}
+
+.textInNewBitInFooter {
+    color: #ccc;
+    line-height: 1.7;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.copyRight {
+    color: #ccc;
+    line-height: 1.5;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.mostPopular1InFooter, .mostPopular2InFooter {
+    color: #F9B500;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secondMostPopularInFooter {
+    margin-left: 42px;
+}
+
+.p1InFooter, .p2InFooter, .p3InFooter, .p4InFooter {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.p1InFooter:after {
+    content: '';
+    position: absolute;
+    top: 130px;
+    left: 330px;
+    width: 33%;
+    height: 1px;
+    background: rgb(95, 95, 95);
+}
+
+.p3InFooter:after {
+    content: '';
+    position: absolute;
+    top: 130px;
+    left: 700px;
+    width: 33%;
+    height: 1px;
+    background: rgb(95, 95, 95);
+}
+
+.date1InFooter, .date2InFooter, .date3InFooter, .date4InFooter {
+    color: #ccc;
+    margin: 15px 0 50px 0;
+}
+
+.contentInFooter::after {
+    content: '';
+    position: absolute;
+    top: 300px;
+    width: 115%;
+    height: 1px;
+    background: rgb(95, 95, 95);
+}
+
+.LinksBottomFooter {
+    display: flex;
+    gap: 25px;
+    color: #ccc;
+    position: relative;
+    bottom: 195px;
+    left: 140px;
+    width: 40%;
+}
