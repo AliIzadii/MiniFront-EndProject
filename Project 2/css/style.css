@@ -628,7 +628,7 @@ input[type="email"] {
 }
 
 .pInFooter img {
-    width: 3%;
+    width: 1.5%;
     position: relative;
     bottom: -2px;
 }
@@ -636,8 +636,9 @@ input[type="email"] {
 .linkInFooter {
     text-decoration: none;
     color: rgba(105, 57, 235, 0.699);
-    margin-top: 69px;
-    margin-right: 678px;
+    position: relative;
+    left: 619px;
+    bottom: 23px;
     font-size: 15px;
 }
 
